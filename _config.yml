@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "머리에 물 주기"
+title                    : "Sink deep down"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "오현지 (Hyunji Oh)"
+name                     : "HYUNJI OH"
 description              : "An amazing website."
 url                      : "https://Sagees.github.io"
 baseurl                  : ""
@@ -101,19 +101,19 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:applebeef25@gmail.com"
+       url: "mailto:applebeef25@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://www.linkedin.com/in/hyunji-oh-964795149"
+       url: "https://www.linkedin.com/in/hyunji-oh-964795149"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+       url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/Sagees"
+       url: "https://github.com/Sagees"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/ggulddee"
+       url: "https://instagram.com/ggulddee"
 
 # Site Footer
 footer:
