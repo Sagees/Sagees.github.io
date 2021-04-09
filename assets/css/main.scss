@@ -4,7 +4,7 @@ $sans-serif: 'Noto Sans KR';
 $monospace: 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
-@import "minimal-mistakes/skins/aqua"; // skin
+@import "minimal-mistakes/skins/air"; // skin
 @import "minimal-mistakes";
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
@@ -34,5 +34,5 @@ html {
 .language-plaintext {
   font-family: $monospace;
   font-size: $type-size-5;
-  background: #c0ffee;
+  background: #ffffff;
 }
