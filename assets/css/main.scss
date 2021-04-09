@@ -9,6 +9,13 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
+$serif              : "Inconsolata", monospace, "PT Serif", Georgia, Times, serif;
+$sans-serif-narrow  : "Inconsolata", monospace, "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
+$caption-font-family: $serif !default;
+
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
   font-size: 12px; // change to whatever
@@ -35,4 +42,43 @@ html {
   font-family: $monospace;
   font-size: $type-size-5;
   background: #ffffff;
+}
+
+/* 
+refer from 
+- https://devinlife.com/
+- https://github.com/allejo/jekyll-toc
+*/
+
+.sidebar__right {
+  display: block;
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 200px;
+  margin-right: -200px;
+  /* padding-left: 1em; */
+  z-index: 10;
+  clear: both;
+  position: -webkit-sticky;
+  top: 2em;
+  float: right;
+}
+
+.toc {
+  background-color: #ffffff;
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+  width: 100%;
+  font-size: .75em;
+  ul {
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+  }
+  li {
+    padding: 0px 10px;
+  }
 }
