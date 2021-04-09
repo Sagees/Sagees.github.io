@@ -97,7 +97,7 @@ author:
   name             : "Hyunji Oh"
   avatar           : "/assets/images/profile.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : 
   email            :
   links:
     - label: "Email"
