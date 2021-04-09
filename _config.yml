@@ -51,7 +51,6 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
-  - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -87,6 +86,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
