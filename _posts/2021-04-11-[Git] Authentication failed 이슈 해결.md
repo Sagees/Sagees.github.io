@@ -15,20 +15,21 @@ Git을 사용할 때, 매커니즘에 완벽하게 익숙지 못해서 그런지
  fail이 뜨고 나서 로컬 저장소에 있던 폴더 및 파일들이 다 날아갔다. 어쩔 수 없이 다시 `git clone`해서 불러왔으나, commit을 해도 `git push`에서 다시 오류가 떠서 또 날아갔다. :tired_face:
 
 해결 방법을 찾았기에 공유하려고 한다.
+
 <span style="color:grey">*찾아보니 clone할 때도 이런 오류가 뜰 수 있다고 한다.*</span>
 
 
-### 해결 방안
+## 해결 방안
 
 **Authentication failed**이기에 자격 증명과 관련이 있다.
 
 Windows 10 환경에서 <span style="color:red">[시작] - "자격 증명 관리자" 검색 - Windows 자격 증명</span>란에 들어가면 다음과 같은 창이 뜬다.
 
-![screenshot](../assets/images/windows_authentication.png)
+![windows_authentication](https://user-images.githubusercontent.com/34927658/114311759-f23dcc00-9b2a-11eb-983f-3062125d73e7.PNG)
 
 **github**과 관련된 자격 증명을 선택하면 <span style="color:blue">편집</span> 및 <span style="color:blue">제거</span> 버튼이 있다.
 
-![screenshot](../assets/images/github_authentication.png)
+![github_authentication](https://user-images.githubusercontent.com/34927658/114311757-f1a53580-9b2a-11eb-9294-a5c7134b375f.PNG)
 
 다음과 같이 편집 버튼을 클릭하여 사용자 이름(user id)와 암호(password)를 재입력할 수 있다.
 
