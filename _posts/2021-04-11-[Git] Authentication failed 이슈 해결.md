@@ -24,11 +24,11 @@ Git을 사용할 때, 매커니즘에 완벽하게 익숙지 못해서 그런지
 
 Windows 10 환경에서 <span style="color:red">[시작] - "자격 증명 관리자" 검색 - Windows 자격 증명</span>란에 들어가면 다음과 같은 창이 뜬다.
 
-![screenshot](../assets/image/windows_authentication.png)
+![screenshot](../assets/images/windows_authentication.png)
 
 **github**과 관련된 자격 증명을 선택하면 <span style="color:blue">편집</span> 및 <span style="color:blue">제거</span> 버튼이 있다.
 
-![screenshot](../assets/image/github_authentication.png)
+![screenshot](../assets/images/github_authentication.png)
 
 다음과 같이 편집 버튼을 클릭하여 사용자 이름(user id)와 암호(password)를 재입력할 수 있다.
 
