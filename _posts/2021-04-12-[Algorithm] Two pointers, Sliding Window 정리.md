@@ -40,7 +40,7 @@ start는 부분배열의 front index를 가리키고, end는 back index를 가�
 
 `window size = 3`이고, `[7, 3, 5, 8, 1, 11, 4]` 배열에서 **가장 큰 부분합의 값**을 구하고 싶다고 가정하자.
 
-<img src="https://user-images.githubusercontent.com/34927658/114418557-9720dd80-9bed-11eb-99c7-1735304f348f.jpg" width="200" height="200">
+<img src="https://user-images.githubusercontent.com/34927658/114418557-9720dd80-9bed-11eb-99c7-1735304f348f.jpg" width="450" height="450">
 
 위의 그림과 같이, <span style="color:red">이전 window_start, 이전 window_sum, 그리고 현재 window_end 정보</span>만으로 충분히 다른 메모리 낭비없이 구현할 수 있다.
 
