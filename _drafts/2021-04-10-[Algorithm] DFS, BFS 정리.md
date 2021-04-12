@@ -1,5 +1,5 @@
 ---
-title: "DFS, BFS 정리"
+title: "[Algorithm] DFS, BFS 정리"
 date: 2021-04-10
 categories: DFS BFS 완전탐색 알고리즘
 toc: true
