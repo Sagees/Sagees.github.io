@@ -1,5 +1,5 @@
 ---
-title: "Authentication failed 이슈 해결"
+title: "[Git] Authentication failed 이슈 해결"
 date: 2021-04-11
 categories: Git
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "문자열 알고리즘 - KMP 알고리즘"
+title: "[Algorithm] 문자열 알고리즘 - KMP 알고리즘"
 date: 2021-04-10
 categories: 문자열 KMP 알고리즘
 toc: true
