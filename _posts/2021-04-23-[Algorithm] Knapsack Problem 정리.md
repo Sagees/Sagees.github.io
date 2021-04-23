@@ -7,7 +7,7 @@ toc_sticky: true
 ---
 
 ## :white_check_mark: Knapsack Problem
-Knapsack에 넣을 item들이 주어졌을 때 최대 가치를 얻는 문제이다. 각 item에는 **가중치와 값**이 있다. 운반 가능한 총 중량은 **W**일 때, item의 무게와 그것의 가치를 고려하여 **최대 가치**를 얻어야 된다.
+Knapsack에 넣을 item들이 주어졌을 때 최대 가치를 얻는 문제이다. 각 item에는 **가중치와 가치**가 있다. 운반 가능한 총 중량은 **W**일 때, 각 item의 무게와 가치를 고려하여 **최대 가치**를 얻어야 된다.
 
 <span style="color:blue">[0-1 Knapsack problem] solved by **dynamic programming**</span>
 <span style="color:green">[Fractional Knapsack problem] solved by **greedy algorithm**</span>
@@ -33,4 +33,5 @@ for i = 0 to n
 				B[i, w] = B[i-1, w]
 		else B[i, w] = B[i-1, w]
 ```
+
 ** Then, 시간 복잡도는 O(nW)가 될 것이다.**
